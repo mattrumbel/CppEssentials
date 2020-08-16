@@ -1,7 +1,7 @@
 IMAGE = mattrumbel/cpp_essentials
 TAG = 1.1
 CONTAINER_NAME = cpp_container
-VOL = ~/cpp_container_host:/home/shared/
+VOL = ~/CppEssentials:/home/CppEssentials/
 
 .PHONY: run build update push
 
