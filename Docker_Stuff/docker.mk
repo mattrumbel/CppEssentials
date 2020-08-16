@@ -6,7 +6,7 @@ VOL = ~/cpp_container_host:/home/shared/
 .PHONY: run build update push
 
 run:
-	docker run -it --name ${CONTAINER_NAME} -v ~/cpp_container_host:/host_vol --rm ${IMAGE}:${TAG}
+	docker run -it --name ${CONTAINER_NAME} -v ${VOL} --rm ${IMAGE}:${TAG}
 
 build:
 	docker build -t ${IMAGE}:${TAG} .
