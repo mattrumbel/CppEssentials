@@ -1,0 +1,16 @@
+DESCRIPTION
+You are given an array of srings. You want to code a function to find the longest common prefix string amongst this array of strings. If there is no common prefix, return an empty string "".
+
+For example, suppose the input array of strings is: ["flower","flow","flight"]. Then the output of the function is:: "fl". As another example, suppose the input is: ["dog","racecar","car"]. Then the output is: "". That is, there is no common prefix among the input strings.
+
+More specificly, your task is implementing a function (as shown in the header file: ECLongestPrefix.h):
+
+std::string ECLongestPrefix(int numStrings, const std::string *arrayStrings[]);
+
+Submit C++ source:
+
+1. ECLongestPrefix.cpp - with Solution implemented as part of homework.
+
+2. ECLongestPrefixTest.cpp - Same as Student starter code.
+
+3. ECLongestPrefix.h - Same as Student starter code.

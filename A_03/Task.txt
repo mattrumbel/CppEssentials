@@ -1,0 +1,11 @@
+DESCRIPTION
+Your next C++ programming assignment is writing a C++ program to solve the 2SUM problem, a popular job interview problem. There are two objectives in this assignment.
+
+Get familiar with the basic C++ control flow statements.
+Get started with C++ STL.
+More specifically, you need to implement the following functions:
+
+Binary search. You must write a code from scratch: there exists implementaiton from C++ STL. For practice, you need to write this code yourself.  The interface of your code is:  int ECBinarySearch(const vector<int> &listNumbers, int value). A little explanation: the sorted input list of numbers comes in a STL vector. You need to implement binary search of "value" over this list; return the position (i.e., array index) of the vector that matches "value"; or return -1 if not found.
+Write a simple sorting program using MergeSort algorithm.
+Write a program to solve the 2SUM problem. Here, you are given a list of (unordered) numbers, and also one additional number. You want to find whether there are two numbers in the list that sum to this number.
+Here, I append a prefix "EC" which stands for Essentials of C++ (the course name). This is to avoid any potential naming conflicts, and also serve as a note that the code you wrote is for this course.

@@ -1,0 +1,10 @@
+DESCRIPTION
+This assignment is meant to get you started with C++ programming. There are four tasks in this assignment.
+
+1. Console-based programming. We won’t use any C++ IDE for this course. All programs mustbe run and debugged using console. This way, the code is easily portable across platforms.The very first task for you is getting to know the console environment of your computer.If you use Mac (say MacBook), this is easy: Mac OS is related to Linux; using console(command line) is straightforward. If you use Windows, this can be a little more tricky.Based on my personal experience (before I switched to Mac about seven years ago), youcan use Cygwin which seems to work reasonably well. There are also other ways, such asWindows Subsystems for Linux. I haven’t tried these approaches myself. In any case, youneed a Linux-like environment where you can compile and run C++ code using commandline. That is, make sure you can run g++ and make. These tools will be essential to thiscourse.
+
+2. Now figure out what tool you will use as C++ program editor. In principle, you can useany editor (even MS Word) to write your C++ code. In practice, however, having a goodprogram editor often helps a lot. For Mac OS, I highly recommend Xcode. For Windows,you may use Visual C++ (but don’t use their more advanced features such as code wizard;those are often closely tied to Windows platform; that is, use VC as a program editor onlyfor this course).
+
+3. Now write a “Hello World” C++ program using your program editor and compile under thecommand line. You can google to find such a simple C++ program. This is to make sureyour development environment works.
+
+4. Finally, submit your “Hello World” C++ code to Mimir classroom. You must submit in a single file named as "helloworld.cpp". For those who haven’tused Mimir, it is an online instruction web site that allows easy automated test and grading.You should register and enroll in the Mimir classroom for this course. I will post instructionfor Mimir in HuskyCT. Once you verify your submitted code passes the simple test case, youare done for this week. This is so easy, isn’t it?

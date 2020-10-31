@@ -1,0 +1,6 @@
+DESCRIPTION
+Implement a simple sorting function, with prototype as:
+
+ECSort(std::vector<int> &vec);
+
+You can use any sorting algorithms. I recommend to use "insertion sort". If you want to have a little more challenge, try to implement either MergeSort or QuickSort.

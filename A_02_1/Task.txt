@@ -1,0 +1,39 @@
+DESCRIPTION
+This assignment aims to letting practice with references and points. This assignment also needs STL and I/O. Note that the given files have a special file called Makefile. The purpose of Makefile is guiding the process on how to build (compile and link) the C++ code. The file looks a little mysterious. Don't worry about it for now. For the moment, you don't need to write Makefile yourself. Sometime in the future, you may need to.
+
+In the first part of the assignment, we practice "references" first.
+
+Here, you need to write a function
+
+buildList 
+that receives an STL list and populates the list with a sequence of words read from standard input (cin). The function should return nothing and modify the list it receives. When the input ends (end-of-file, i.e., CTRL-D), end the reading and return the constructed list.
+
+The main program must simply call upon your buildList function and dump the list of words it receives on the standard output, one word per line.
+
+Make sure that you make use of const annotations whenever appropriate.
+
+For example, suppose you type in two lines in the standard input:
+
+ 
+
+This is my
+
+code programs.
+
+ 
+
+Then, buildList would construct a STL list of strings with:
+
+This is my code programs.
+
+Then it outputs each word one by one in the standard output:
+
+This
+
+is
+
+my
+
+code
+
+programs.

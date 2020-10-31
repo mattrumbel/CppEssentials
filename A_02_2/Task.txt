@@ -1,0 +1,7 @@
+DESCRIPTION
+This is the continuation of programming assignment 2. In this assignment, you will need to use pointers, instead of references. In particular,
+
+Do a version of the above where buildList allocates an STL list (on the heap) and returns as a result the pointer to the list.
+Write a version of the main program that manipulates the list correctly. Do make use of a range loop to print the content of the list.
+Make sure you have no leaks.
+Note: Mimir is very particular about the name of the final executable when testing. Please make sure you keep the name as "wlist" when submitting your code. If you downloaded the starter code before 1/28/2020 you may either need to change the name in the makefile from wlist2 to wlist or redownload the starter code for the new makefile which now has the proper name already in it.
